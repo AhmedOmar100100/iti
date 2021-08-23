@@ -1,3 +1,27 @@
 h1 {
     color: green;
 }
+
+
+/* start top nav */
+
+.top-nav {
+    background-color: #343a40;
+    color: #fff;
+    height: 52px;
+}
+
+.top-nav .row .left {
+    text-align: left;
+}
+
+.top-nav .row .right {
+    text-align: right;
+}
+
+.top-nav .row a {
+    color: #fff;
+}
+
+
+/* end top nav */
