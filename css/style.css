@@ -1,26 +1,128 @@
-h1 {
-    color: green;
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+
+/* google fonts */
+
+
+/* =====   global style    ======= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 5000px;
+}
+
+
+/* =====   global style    ======= */
 
 
 /* start top nav */
 
 .top-nav {
+    padding: 7px 0px;
     background-color: #343a40;
-    color: #fff;
     height: 52px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top .7s ease-in-out, .4s opacity ease-in-out;
 }
 
-.top-nav .row .left {
-    text-align: left;
+#main-nav {
+    position: fixed;
+    top: 52px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    transition: top .6s ease-in-out, .4s opacity ease-in-out;
+    border-bottom: 1px solid rgba(110, 110, 110, .3);
 }
 
-.top-nav .row .right {
-    text-align: right;
+#main-nav .navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.top-nav .row a {
+#main-nav .navbar-brand img {
+    height: 46px;
+    margin-bottom: 5px;
+}
+
+#main-nav .navbar-brand .divider {
+    border-right: 2px solid #901b20;
+    height: 31px;
+    margin-top: 15px;
+    margin-left: 6px;
+    margin-right: 8px;
+}
+
+#main-nav .navbar-brand p.title {
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    line-height: 1.3;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: .2px;
+    word-spacing: 0;
+    color: #6c757d;
+    margin: 18px 0 0 4px;
+    width: 251px;
+}
+
+#main-nav ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.top-nav .row a:first-child {
+    text-decoration: none;
+    color: #fff !important;
+    transition: color .3s ease-in-out;
+}
+
+.top-nav .row a:first-child:hover {
+    color: #6e6e6e !important;
+}
+
+.top-nav .row li i {
+    margin-right: 5px;
+}
+
+.top-nav .row .right ul li {
+    margin-right: 19px;
+}
+
+.top-nav .row .right ul li a {
+    text-decoration: none;
     color: #fff;
+}
+
+.top-nav .row .right ul li a:hover {
+    color: #727a81;
+}
+
+.navbar .nav-item .nav-link.active {
+    color: #B72B31;
+}
+
+
+/* handle responsive font size in nav bar */
+
+@media (max-width:450px) {
+    .top-nav ul li {
+        font-size: 4vw;
+    }
+    .top-nav .row a {
+        font-size: 5vw;
+    }
 }
 
 

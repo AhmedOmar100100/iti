@@ -22,22 +22,76 @@
 <body>
 
     <!-- start top nav -->
-    <!-- <div class="top-nav">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center m-0">
-                <div class="left col-6">
-                    <a href="#" class="text-warning">
-                        <i class="fa fa-info" aria-hidden="true"></i>
-                        <h3 class="d-inline-block">
-                            About us
-                        </h3>
+    <div class="top-nav text-white" id="top-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="#" class="navbar-brand d-inline-block">
+                        <i class="fa fa-info" aria-hidden="true"></i> About us
                     </a>
                 </div>
-                <div class="right col-6">2</div>
+                <div class="col right">
+                    <ul class="navbar nav float-end">
+
+                        <li>
+                            <i class="fa fa-lock" aria-hidden="true"></i> <a href="#">staff only</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-lock" aria-hidden="true"></i> <a href="#">Sign in</a>
+                        </li>
+                    </ul>
+
+                </div>
+
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- end top nav -->
+    <!-- start main nav -->
+    <nav class="navbar navbar-expand-lg navbar-light " id="main-nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/iti-logo.png" alt="">
+                <div class="divider"></div>
+                <p class="title">Information Technology <br> Institute</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Programs
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Professiol Training Programs</a></li>
+                            <li><a class="dropdown-item" href="#">Intensive Training Programs</a></li>
+                            <li><a class="dropdown-item" href="#">Online Learning</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          News Room
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">News</a></li>
+                            <li><a class="dropdown-item" href="#">Events</a></li>
+                        </ul>
+                    </li>
+
+
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- end main nav -->
 
 
 
@@ -57,6 +111,29 @@
 
     <!-- custom js -->
     <script src="js/main.js"></script>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var x = document.getElementById("top-nav");
+            var mainNav = document.getElementById("main-nav");
+
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                x.style.top = "0";
+                x.style.opacity = ".8";
+                mainNav.style.top = "52px";
+                mainNav.style.opacity = "1";
+            } else {
+                x.style.top = "-70px";
+                x.style.opacity = "0";
+                mainNav.style.top = "-92px";
+                mainNav.style.opacity = "0";
+
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
     <!-- custom js -->
 </body>
 
