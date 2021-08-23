@@ -1,36 +1,3 @@
-<<<<<<< HEAD
-/* start footer */
-.mt-50{
-    margin-top: 30px;
-}
-.follow ul{
-	list-style:none;
-	padding-left:0;
-	margin:10px 0 0;
-}
-.follow ul li{
-	display:inline-block;
-	
-}
-.follow ul li a img{
-	width:30px;
-	border-radius: 50%;
-	background-color: white;
-	border-radius: 50%;
-}
-
-.timeline-Header-title {
-    font-size: 21px;
-    font-weight: 300;
-    line-height: 24px;
-    color: #F5F8FA;
-}
-.u-inlineBlock {
-    display: inline-block!important;
-    max-width: 100%;
-}
-/* end footer */
-=======
 /* google fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
@@ -160,4 +127,35 @@ body {
 
 
 /* end top nav */
->>>>>>> aee50d03a3b3807c45aa87ad992ce26e3d34fd56
+
+/* start footer */
+.mt-50{
+    margin-top: 30px;
+}
+.follow ul{
+	list-style:none;
+	padding-left:0;
+	margin:10px 0 0;
+}
+.follow ul li{
+	display:inline-block;
+	
+}
+.follow ul li a img{
+	width:30px;
+	border-radius: 50%;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.timeline-Header-title {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #F5F8FA;
+}
+.u-inlineBlock {
+    display: inline-block!important;
+    max-width: 100%;
+}
+/* end footer */
