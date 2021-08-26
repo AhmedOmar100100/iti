@@ -611,6 +611,131 @@ body {
 /* end courses */
 
 
+/* start watch */
+
+.watch {
+    margin: 65px 0px;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(17, 17, 17, 0.9);
+    background-image: url('../images/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.watch .watch-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.watch a i {
+    margin-top: 15px;
+    color: #FB9300;
+    box-shadow: 2px 1px 23px 5px #fc9928;
+    border-radius: 50%;
+    font-size: 72px;
+    height: 56px;
+    line-height: 56px;
+    width: 56px;
+}
+
+.watching {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 111111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.watching.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.watching video {
+    max-width: 860px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.watching i {
+    position: absolute;
+    top: 30px;
+    right: 27px;
+    font-size: 40px;
+    color: #F54748;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+
+.watching i:hover {
+    color: #FB9300;
+}
+
+
+/* end watch */
+
+
+/* start gallery*/
+
+.gallery {
+    margin: 50px 0px;
+}
+
+.gallery .nav-tabs {
+    border: 0;
+}
+
+.gallery .nav-item:not(:first-child) .nav-link {
+    margin-left: 12px;
+}
+
+.gallery .nav-link {
+    transition: all .3s ease-in-out;
+}
+
+.gallery :first-child .nav-link {
+    margin-left: 0px;
+    color: #fc9928;
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.gallery .nav-link.active {
+    border: 0;
+}
+
+.gallery .nav-link:hover,
+.gallery .nav-link.active {
+    border-left: 4px solid #FB9300;
+    background-color: #F54748;
+    color: #fff;
+}
+
+.gallery .gallery-image {
+    margin-bottom: 14px;
+}
+
+@media(max-width:322px) {
+    .gallery .nav-item:not(:first-child) .nav-link {
+        margin-left: 1px;
+    }
+}
+
+
+/* end gallery */
+
+
 /* start footer */
 
 .mt-50 {

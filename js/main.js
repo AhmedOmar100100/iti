@@ -17,3 +17,11 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+
+
+// function to handle close and show video in watch video section
+function toggle() {
+    var watching = document.querySelector(".watching");
+    watching.classList.toggle("active");
+}
