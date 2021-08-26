@@ -14,6 +14,10 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- font awesome -->
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- owl carousel -->
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- custom css -->
@@ -21,7 +25,7 @@
 
 <body>
 
-    <!-- start top nav -->
+    <!-------------------------- start top nav ----------------------->
     <div class="top-nav text-white" id="top-nav">
         <div class="container">
             <div class="row">
@@ -46,9 +50,9 @@
             </div>
         </div>
     </div>
-    <!-- end top nav -->
+    <!--------------------------- end top nav ------------------------>
     <!-- start main nav -->
-    <nav class="navbar navbar-expand-lg navbar-light " id="main-nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" id="main-nav">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="images/iti-logo.png" alt="">
@@ -56,8 +60,8 @@
                 <p class="title">Information Technology <br> Institute</p>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -65,7 +69,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Programs
+                            Programs
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Professiol Training Programs</a></li>
@@ -75,37 +79,566 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          News Room
+                            News Room
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">News</a></li>
                             <li><a class="dropdown-item" href="#">Events</a></li>
                         </ul>
                     </li>
-
-
-
-
                 </ul>
-
             </div>
         </div>
     </nav>
-    <!-- end main nav -->
+    <!--------------------------- end main nav ------------------------>
+
+    <!----------------------------start content------------------------>
+    <!--------------------------- start slider ------------------------>
+    <div class="slider">
+        <div id="carouselExampleIndicators" class="carousel slide slider-main carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/bg3.jpg" class="d-block w-100" alt="...">
+                    <div class="caption">
+                        <h2>WELCOME TO <span>ITI </span></h2>
+                        <p>We provides always our best educational services for our all students and always try to achieve our students trust and satisfaction</p>
+                        <button class="btn btn-slider-1 mx-3">our services</button>
+                        <button class="btn btn-slider-2 ">Get Quote</button>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bg2.jpg" class="d-block w-100" alt="...">
+                    <div class="caption">
+                        <h2>Easy <span>To </span> Learn</h2>
+                        <p>We provides always our best educational services for our all students and always try to achieve our students trust and satisfaction</p>
+                        <button class="btn btn-slider-1 mx-3">our services</button>
+                        <button class="btn btn-slider-2 ">Get Quote</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bg1.jpg" class="d-block w-100" alt="...">
+                    <div class="caption">
+                        <h2>BEST <span>ONLINE </span> COURSE</h2>
+                        <p>We provides always our best educational services for our all students and always try to achieve our students trust and satisfaction</p>
+                        <button class="btn btn-slider-1 mx-3">our services</button>
+                        <button class="btn btn-slider-2 ">Get Quote</button>
+                    </div>
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!--------------------------- end slider -------------------------->
+
+    <!--------------------------- start features ---------------------->
+    <div class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 feature">
+                    <div class="row align-items-center">
+                        <div class="col-sm-3">
+                            <div class="icon">
+                                <img src="images/online.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="text">
+                                <h5>Online Course Facilities
+                                </h5>
+                                <a href="#" class="btn">Read More</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 feature">
+                    <div class="row align-items-center">
+                        <div class="col-sm-3">
+                            <div class="icon">
+                                <img src="images/book.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="text">
+                                <h5>Online Course Facilities
+                                </h5>
+                                <a href="#" class="btn">Read More</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 feature">
+                    <div class="row align-items-center">
+                        <div class="col-sm-3">
+                            <div class="icon">
+                                <img src="images/graduate.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="text">
+                                <h5>Online Course Facilities
+                                </h5>
+                                <a href="#" class="btn">Read More</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------- end features ------------------------->
+    <!-------------------------- start about section ------------------>
+    <div class="about-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 about-div">
+                    <div class="image">
+                        <img class="img-fluid" src="images/1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 about-div">
+                    <div class="middle-box">
+                        <h3>About <span> ITI</span>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptatem maiores eaque similique non distinctio voluptates perspiciatis omnis, repellendus ipsa aperiam, laudantium voluptatum nulla?. Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Soluta, assumenda, voluptatum. Libero eligendi molestias iure error animi totam
+
+                        </p>
+                        <a href="#" class="btn btn-slider-1">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 about-div">
+                    <div class="advert">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------- end about section --------------------->
+    <!-------------------------- start courses ------------------------>
+    <div class="courses">
+        <h2 class="text-center my-5">POPULAR COURSES
+        </h2>
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+
+                    <div class="card-image">
+                        <div class="thumbail">
+                            <img src="images/sm1.jpg" alt="">
+                        </div>
+                        <div class="price">Free</div>
+
+                    </div>
+                    <div class="row">
+                        <div class="left col-9">
+                            <div class="card-title">
+                                <a href="#">
+                                    <h4>Nural Networking Course</h4>
+                                </a>
+                            </div>
+                            <div class="card-info row">
+                                <div class="review-stars col-5">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+
+                                </div>
+                                <div class="comments col-3">25
+                                    <i class="fa fa-comments-o"></i>
+                                </div>
+                                <div class="likes col-3">60
+                                    <i class="fa fa-thumbs-o-up"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right col-2">
+                            <div class="instructor-img">
+                                <img src="images/xs3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-desc">
+                        Lorem ipsum dolor sit amet, consec teturadipsi cing elit. Nobis commodi esse aliquam eligend reprehenderit, numquam a odio.
+
+                    </div>
+                    <div class="course-meta">
+                        <div class="row">
+                            <div class="col-3 item-meta">
+                                <h6>1 Year</h6>
+                                <p>course</p>
+                            </div>
+                            <div class="col-4 item-meta">
+                                <h6>45</h6>
+                                <p>class size</p>
+                            </div>
+                            <div class="col-5 item-meta">
+                                <h6>1 Hour 45 min</h6>
+                                <p>class Duration</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="card-image">
+                        <div class="thumbail">
+                            <img src="images/sm2.jpg" alt="">
+                        </div>
+                        <div class="price">Free</div>
+
+                    </div>
+                    <div class="row">
+                        <div class="left col-9">
+                            <div class="card-title">
+                                <a href="#">
+                                    <h4>HTML Crach Course</h4>
+                                </a>
+                            </div>
+                            <div class="card-info row">
+                                <div class="review-stars col-5">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+
+                                </div>
+                                <div class="comments col-3">25
+                                    <i class="fa fa-comments-o"></i>
+                                </div>
+                                <div class="likes col-3">60
+                                    <i class="fa fa-thumbs-o-up"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right col-2">
+                            <div class="instructor-img">
+                                <img src="images/xs3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-desc">
+                        Lorem ipsum dolor sit amet, consec teturadipsi cing elit. Nobis commodi esse aliquam eligend reprehenderit, numquam a odio.
+
+                    </div>
+                    <div class="course-meta">
+                        <div class="row">
+                            <div class="col-3 item-meta">
+                                <h6>1 Year</h6>
+                                <p>course</p>
+                            </div>
+                            <div class="col-4 item-meta">
+                                <h6>45</h6>
+                                <p>class size</p>
+                            </div>
+                            <div class="col-5 item-meta">
+                                <h6>1 Hour 45 min</h6>
+                                <p>class Duration</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="card-image">
+                        <div class="thumbail">
+                            <img src="images/sm3.jpg" alt="">
+                        </div>
+                        <div class="price">350 $</div>
+
+                    </div>
+                    <div class="row">
+                        <div class="left col-9">
+                            <div class="card-title">
+                                <a href="#">
+                                    <h4>Front end diploma</h4>
+                                </a>
+                            </div>
+                            <div class="card-info row">
+                                <div class="review-stars col-5">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+
+                                </div>
+                                <div class="comments col-3">25
+                                    <i class="fa fa-comments-o"></i>
+                                </div>
+                                <div class="likes col-3">60
+                                    <i class="fa fa-thumbs-o-up"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right col-2">
+                            <div class="instructor-img">
+                                <img src="images/xs3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-desc">
+                        Lorem ipsum dolor sit amet, consec teturadipsi cing elit. Nobis commodi esse aliquam eligend reprehenderit, numquam a odio.
+
+                    </div>
+                    <div class="course-meta">
+                        <div class="row">
+                            <div class="col-3 item-meta">
+                                <h6>1 Year</h6>
+                                <p>course</p>
+                            </div>
+                            <div class="col-4 item-meta">
+                                <h6>45</h6>
+                                <p>class size</p>
+                            </div>
+                            <div class="col-5 item-meta">
+                                <h6>1 Hour 45 min</h6>
+                                <p>class Duration</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="card-image">
+                        <div class="thumbail">
+                            <img src="images/sm4.jpg" alt="">
+                        </div>
+                        <div class="price">200 $</div>
+
+                    </div>
+                    <div class="row">
+                        <div class="left col-9">
+                            <div class="card-title">
+                                <a href="#">
+                                    <h4>Backend Diploma From zero to Hero</h4>
+                                </a>
+                            </div>
+                            <div class="card-info row">
+                                <div class="review-stars col-5">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+
+                                </div>
+                                <div class="comments col-3">25
+                                    <i class="fa fa-comments-o"></i>
+                                </div>
+                                <div class="likes col-3">60
+                                    <i class="fa fa-thumbs-o-up"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right col-2">
+                            <div class="instructor-img">
+                                <img src="images/xs3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-desc">
+                        Lorem ipsum dolor sit amet, consec teturadipsi cing elit. Nobis commodi esse aliquam eligend reprehenderit, numquam a odio.
+
+                    </div>
+                    <div class="course-meta">
+                        <div class="row">
+                            <div class="col-3 item-meta">
+                                <h6>1 Year</h6>
+                                <p>course</p>
+                            </div>
+                            <div class="col-4 item-meta">
+                                <h6>45</h6>
+                                <p>class size</p>
+                            </div>
+                            <div class="col-5 item-meta">
+                                <h6>1 Hour 45 min</h6>
+                                <p>class Duration</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!------------------------- end courses --------------------------->
+
+    <!-------------------------- start team --------------------------->
+    <div class="team">
+        <h2 class="text-center">Our <span> Teachers</span></h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 m-sm-auto">
+                    <div class="card w-100">
+                        <div class="box">
+                            <div class="img">
+                                <img src="images/p1.jpg">
+                            </div>
+                            <h2>Ahmed Omar<br><span>Front end web developer</span></h2>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                            <span>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card w-100">
+                        <div class="box">
+                            <div class="img">
+                                <img src="images/p2.jpg">
+                            </div>
+                            <h2>Mohamed Ashraf<br><span>Front end web developer</span></h2>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                            <span>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card w-100">
+                        <div class="box">
+                            <div class="img">
+                                <img src="images/1.jpg">
+                            </div>
+                            <h2>Ahmed sayed<br><span>Front end web developer</span></h2>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                            <span>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card w-100">
+                        <div class="box">
+                            <div class="img">
+                                <img src="images/2.jpg">
+                            </div>
+                            <h2>Sama<br><span>Front end web developer</span></h2>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                            <span>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card w-100">
+                        <div class="box">
+                            <div class="img">
+                                <img src="images/2 (1).jpg">
+                            </div>
+                            <h2>Somia<br><span>Front end web developer</span></h2>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                            <span>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card w-100">
+                        <div class="box">
+                            <div class="img">
+                                <img src="images/4.jpg">
+                            </div>
+                            <h2>Youmna<br><span>Front end web developer</span></h2>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                            <span>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------- end team ----------------------------->
 
 
 
 
-    <!-- <h1>final final project</h1> -->
-    <!--start content-->
-    <div style="height: 5000px;"></div>
+
+
     <!--end content-->
 
 
 
-    <!--start footer-->
+    <!---------------------------start footer--------------------------->
     <!--container fluid-->
-    <div class="container-fluid" style="background-color: #212529;">
+    <div class="footer container-fluid" style="background-color: #212529;">
         <!--container insed container faluid-->
         <div class="container">
             <!--row-->
@@ -119,12 +652,15 @@
                         </div>
                         <div>
                             <blockquote class="twitter-tweet" data-theme="dark">
-                                <p lang="en" dir="ltr">Recent Top Stories: Russian Underground Offers Cybercrime Services at Dirt-Cheap Prices <a href="http://t.co/sLrF1Pb9">http://t.co/sLrF1Pb9</a></p>&mdash; WIRED (@WIRED) <a href="https://twitter.com/WIRED/status/265680297566273537?ref_src=twsrc%5Etfw">November 6, 2012</a></blockquote>
+                                <p lang="en" dir="ltr">Recent Top Stories: Russian Underground Offers Cybercrime Services at Dirt-Cheap Prices <a href="http://t.co/sLrF1Pb9">http://t.co/sLrF1Pb9</a></p>&mdash; WIRED (@WIRED)
+                                <a href="https://twitter.com/WIRED/status/265680297566273537?ref_src=twsrc%5Etfw">November
+                                    6, 2012</a>
+                            </blockquote>
                             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
                         <div class="card-footer bg-transparent border-top">
-                            <span> <a href="#"style=" text-decoration: none;">&lrm;Embed</a></span>
-                            <span> <a href="#"style=" text-decoration: none;">&lrm;View on Twitter</a></span>
+                            <span> <a href="#" style=" text-decoration: none;">&lrm;Embed</a></span>
+                            <span> <a href="#" style=" text-decoration: none;">&lrm;View on Twitter</a></span>
                         </div>
                     </div>
 
@@ -161,14 +697,20 @@
             </div>
         </div>
     </div>
-    <!--  -->
+    <!--------------------------- end footer  -------------------------->
+
     <!-- js bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     <!-- js bootstrap -->
+    <!-- jquery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- jquery -->
+    <!-- js owl carousel library -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- js owl carousel library -->
 
     <!-- custom js -->
-    <script src="js/main.js"></script>
 
     <script>
         var prevScrollpos = window.pageYOffset;
@@ -192,6 +734,8 @@
             prevScrollpos = currentScrollPos;
         }
     </script>
+    <script src="js/main.js"></script>
+
     <!-- custom js -->
 </body>
 
