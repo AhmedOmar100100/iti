@@ -971,3 +971,102 @@ body {
 
 /* end footer */
 >>>>>>> 067b3f4b026814bd063a5d940a0ef7cf3a8199c4
+/* start login  */
+.login{
+    background-color: #eceff2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.login_card{
+    padding: 2.5rem;
+    background-color: #fafafa;
+    box-shadow: 2px 2px 16px 0px rgb(208 212 217);
+    border-radius: 3px;
+}
+.align-items-center {
+    
+    align-items: center!important;
+}
+.login__header {
+    display: flex;
+}
+.login__header-logo {
+    height: 3rem;
+}
+.login__header-title {
+    color: #6c757d;
+    font-family: 'Poppins', sans-serif;
+    margin: 0.5rem 0 0 0.5rem;
+    width: 254px;
+    font-size: 1.2rem;
+}
+.login__form-title {
+    color: #6c757d;
+    text-transform: capitalize;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center!important;
+}
+.input-group {
+    position: relative;
+    /* display: -ms-flexbox; */
+    display: flex;
+    /* -ms-flex-wrap: wrap; */
+    flex-wrap: wrap;
+    /* -ms-flex-align: stretch; */
+    align-items: stretch;
+    width: 100%;
+}
+.input-group-prepend {
+    margin-right: -1px;
+}
+.input-group-text {
+    color: #64a3bf;
+    background-color: white;
+    padding: 1.1rem;
+    border-color: #f5f6f7;
+    border-right: 0;
+}
+.justify-content-around {
+    /* -ms-flex-pack: distribute!important; */
+    justify-content: space-around!important;
+}
+.custom-control {
+    position: relative;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+}
+.custom-control-label {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+    font-size: 0.9rem;
+}
+.text-muted{
+    font-size: 0.9rem;
+    color: #6c757d!important;
+    text-align: center!important;
+}
+.login__form-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.facebook {
+    color: white;
+    background-color: #4267b2;
+}
+.google {
+    color: white;
+    background-color: #dd4b39;
+}
+/* end login */

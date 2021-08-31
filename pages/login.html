@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- bootstrap css -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <!-- font awesome -->
+    <!-- custom css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- custom css -->
+</head>
+<body>
+    <div class="login py-sm-5">
+        <div class="container login_card">
+            <div class="row align-items-center">
+                <div class="login__header col-12 mb-3">
+                    <img class="login__header-logo" src="../images/iti-logo.png">
+                    <h4 class="login__header-title">Information Technology Institue</h4>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-7 ">
+                    <img src="../images/ITI-building.svg" style="width: 100%;">
+                </div>
+                <div class="d-flex flex-column col-sm-12 col-md-6 col-lg-5 ">
+                    <form id="account" method="post">
+                        <h1 class="login__form-title mb-3">Welcome To ITI</h1>
+                        <div class="mb-2 input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text border-bottom-0">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <input type="text" name="user name" style="border: none;">
+                        </div>
+                        <div class="mb-2 input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text border-bottom-0">
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                            </div>
+                            <input type="password" name="password" style="border: none;">
+                        </div>
+                        <div class="mb-2 justify-content-around d-flex flex-wrap">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox">
+                                <label class="custom-control-label">Remember Me</label>
+                                <!-- <input type="checkbox" class="custom-control-input" data-val="true" data-val-required="The RememberMe field is required." id="RememberMe" name="RememberMe" value="true"> -->
+                            </div>
+                            <p>Forget your password?</p>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary" type="button" >log in</button>
+                            <button class="btn btn-light" type="button" >create new account</button>
+                        </div>
+                        <div class="mt-3">
+                            <h6 class="mb-2 text-muted">Or you can login with</h6>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="login__form-icon facebook">f</a>
+                                <a href="#" class="login__form-icon google">G</a>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <!-- js bootstrap -->
+
+    <!-- custom js -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
