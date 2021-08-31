@@ -15,7 +15,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    height: 5000px;
+    
 }
 
 
@@ -169,3 +169,77 @@ body {
     background-color: #FF0000;
 }
 /* end footer */
+/* start about us  */
+.img-fullwidth {
+    width: 100% !important;
+}
+.mt-sm-30 {
+    margin-top: 30px !important;
+}
+.text-theme-colored2 {
+    color: #FC9928 !important;
+}
+.double-line-bottom-theme-colored-2 {
+    margin-bottom: 20px;
+    margin-top: 8px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.btn-theme-colored2 {
+    background-color: #FC9928;
+    border-color: #FC9928;
+}
+
+.mt-sm-30 {
+    margin-top: 30px !important;
+}
+.top-course-thumb {
+    max-width: 430px;
+    position: relative;
+}
+.top-course-thumb .desc-box .title {
+    font-size: 24px;
+    top: 38%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    left: 0;
+    margin: -15px auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    
+    z-index: 1;
+}
+.top-course-thumb .desc-box .off {
+    font-size: 46px;
+    top: 46%;
+    font-weight: 600;
+    left: 0;
+    margin: -15px auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    color: #FC9928;
+    z-index: 1;
+}
+.top-course-thumb .desc-box .signup {
+    top: 60%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    margin: -15px auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-decoration: underline;
+    
+    z-index: 1;
+}
+.pharagraph{
+    color: #77778D;
+    font-size: 12px;
+    
+}
+/* end about us  */
