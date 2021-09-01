@@ -34,12 +34,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-<<<<<<< HEAD
-    
-=======
     height: 5000px;
     /* background-color: #EDEDED; */
->>>>>>> 067b3f4b026814bd063a5d940a0ef7cf3a8199c4
 }
 
 
@@ -890,24 +886,32 @@ body {
 #youtube:hover {
     background-color: #FF0000;
 }
-<<<<<<< HEAD
+
+
 /* end footer */
+
+
 /* start about us  */
+
 .img-fullwidth {
     width: 100% !important;
 }
+
 .mt-sm-30 {
     margin-top: 30px !important;
 }
+
 .text-theme-colored2 {
     color: #FC9928 !important;
 }
+
 .double-line-bottom-theme-colored-2 {
     margin-bottom: 20px;
     margin-top: 8px;
     padding-bottom: 5px;
     position: relative;
 }
+
 .btn-theme-colored2 {
     background-color: #FC9928;
     border-color: #FC9928;
@@ -916,10 +920,12 @@ body {
 .mt-sm-30 {
     margin-top: 30px !important;
 }
+
 .top-course-thumb {
     max-width: 430px;
     position: relative;
 }
+
 .top-course-thumb .desc-box .title {
     font-size: 24px;
     top: 38%;
@@ -931,9 +937,9 @@ body {
     position: absolute;
     right: 0;
     text-align: center;
-    
     z-index: 1;
 }
+
 .top-course-thumb .desc-box .off {
     font-size: 46px;
     top: 46%;
@@ -946,6 +952,7 @@ body {
     color: #FC9928;
     z-index: 1;
 }
+
 .top-course-thumb .desc-box .signup {
     top: 60%;
     color: #fff;
@@ -957,43 +964,50 @@ body {
     right: 0;
     text-align: center;
     text-decoration: underline;
-    
     z-index: 1;
 }
-.pharagraph{
+
+.pharagraph {
     color: #77778D;
     font-size: 12px;
-    
 }
+
+
 /* end about us  */
-=======
 
 
 /* end footer */
->>>>>>> 067b3f4b026814bd063a5d940a0ef7cf3a8199c4
+
+
 /* start login  */
-.login{
+
+.login {
+    margin-top: 100px;
     background-color: #eceff2;
     height: 100vh;
     display: flex;
     align-items: center;
 }
-.login_card{
+
+.login_card {
     padding: 2.5rem;
     background-color: #fafafa;
     box-shadow: 2px 2px 16px 0px rgb(208 212 217);
     border-radius: 3px;
 }
+
 .align-items-center {
-    
     align-items: center!important;
 }
+
 .login__header {
     display: flex;
 }
+
 .login__header-logo {
     height: 3rem;
 }
+
 .login__header-title {
     color: #6c757d;
     font-family: 'Poppins', sans-serif;
@@ -1001,6 +1015,7 @@ body {
     width: 254px;
     font-size: 1.2rem;
 }
+
 .login__form-title {
     color: #6c757d;
     text-transform: capitalize;
@@ -1008,6 +1023,7 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center!important;
 }
+
 .input-group {
     position: relative;
     /* display: -ms-flexbox; */
@@ -1018,9 +1034,11 @@ body {
     align-items: stretch;
     width: 100%;
 }
+
 .input-group-prepend {
     margin-right: -1px;
 }
+
 .input-group-text {
     color: #64a3bf;
     background-color: white;
@@ -1028,27 +1046,32 @@ body {
     border-color: #f5f6f7;
     border-right: 0;
 }
+
 .justify-content-around {
     /* -ms-flex-pack: distribute!important; */
     justify-content: space-around!important;
 }
+
 .custom-control {
     position: relative;
     display: block;
     min-height: 1.5rem;
     padding-left: 1.5rem;
 }
+
 .custom-control-label {
     position: relative;
     margin-bottom: 0;
     vertical-align: top;
     font-size: 0.9rem;
 }
-.text-muted{
+
+.text-muted {
     font-size: 0.9rem;
     color: #6c757d!important;
     text-align: center!important;
 }
+
 .login__form-icon {
     display: flex;
     justify-content: center;
@@ -1061,12 +1084,16 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
+
 .facebook {
     color: white;
     background-color: #4267b2;
 }
+
 .google {
     color: white;
     background-color: #dd4b39;
 }
+
+
 /* end login */
