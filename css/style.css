@@ -34,10 +34,11 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    height: 5000px;
     /* background-color: #EDEDED; */
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 
 /* =====   global style    ======= */
 

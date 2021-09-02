@@ -1,7 +1,7 @@
 {
     "courses": [
         { "id": 1, "src": "1.jpg", "review": "3", "price": "200", "title": "HTML", "instructorImg": "xs3.jpg", "desc": "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dignissimos harum corrupti, soluta at aliquam?", "comments": "15", "likes": "19", "academic_year": "1", "class_size": "45", "duration": "5600" },
-        { "id": 1, "src": "1.jpg", "review": "3", "price": "200", "title": "HTML", "instructorImg": "xs3.jpg", "desc": "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dignissimos harum corrupti, soluta at aliquam?", "comments": "15", "likes": "19", "academic_year": "1", "class_size": "45", "duration": "3600" }
+        { "id": 2, "src": "2.jpg", "review": "3", "price": "200", "title": "css", "instructorImg": "xs3.jpg", "desc": "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dignissimos harum corrupti, soluta at aliquam?", "comments": "15", "likes": "19", "academic_year": "1", "class_size": "45", "duration": "3600" }
     ],
 
     "testimonials": [{
